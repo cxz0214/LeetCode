@@ -18,13 +18,13 @@ public class MyQueue {
     /** Removes the element from in front of queue and returns that element. */
     public int pop() {
         conversion(true);
-        stack2.pop();
+        return stack2.pop();
     }
 
     /** Get the front element. */
     public int peek() {
         conversion(true);
-        stack2.peek();
+        return stack2.peek();
     }
 
     /** Returns whether the queue is empty. */
